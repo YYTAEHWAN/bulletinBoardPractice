@@ -1,0 +1,42 @@
+.df {
+    display: flex;
+}
+
+.f-row {
+    flex-direction: row;
+}
+
+.f-col {
+    flex-direction: column;
+}
+
+.page-container {
+    background-color: #f2f2f2;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: -10px;
+    top: 0;
+    width: 100vw;
+    height: calc(100vh - 10px);
+    min-height:calc(100vh - 120px);
+}
+
+.page-container1 {
+    background-color: #fd6c6c;
+    height: 100vh;
+    width: 100vw;
+}
+
+.box-container {
+    background-color: #fff;
+    width: 1280px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+body {
+    margin: 0px;
+}
